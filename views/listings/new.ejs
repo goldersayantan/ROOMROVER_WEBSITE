@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>RoomRover</title>
+    </head>
+    <body>
+        <form method="post" action="/listings">
+            <h2>Create A New Listing:</h2>
+            <input type="text" name="listing[title]" placeholder="Enter title"><br>
+            <textarea name="listing[description]" placeholder="Enter description"></textarea><br>
+            <input type="text" name="listing[image]" placeholder="Enter image URL/ Link"><br>
+            <input type="number" name="listing[price]" placeholder="Enter price"><br>
+            <input type="text" name="listing[location]" placeholder="Enter location"><br>
+            <input type="text" name="listing[country]" placeholder="Enter country"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
